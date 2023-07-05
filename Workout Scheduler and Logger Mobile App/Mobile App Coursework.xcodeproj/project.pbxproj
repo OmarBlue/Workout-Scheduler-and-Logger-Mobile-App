@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868ED6E7296EF7E8009D3605 /* WorkoutReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868ED6E6296EF7E8009D3605 /* WorkoutReminder.swift */; };
+		86EF1604294B3E8D0024FFEF /* Mobile_App_CourseworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF1603294B3E8D0024FFEF /* Mobile_App_CourseworkApp.swift */; };
+		86EF1606294B3E8D0024FFEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF1605294B3E8D0024FFEF /* ContentView.swift */; };
+		86EF1608294B3E8F0024FFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86EF1607294B3E8F0024FFEF /* Assets.xcassets */; };
+		86EF160B294B3E8F0024FFEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86EF160A294B3E8F0024FFEF /* Preview Assets.xcassets */; };
+		86EF161A294B3E8F0024FFEF /* Mobile_App_CourseworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF1619294B3E8F0024FFEF /* Mobile_App_CourseworkTests.swift */; };
+		86EF1624294B3E8F0024FFEF /* Mobile_App_CourseworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF1623294B3E8F0024FFEF /* Mobile_App_CourseworkUITests.swift */; };
+		86EF1626294B3E8F0024FFEF /* Mobile_App_CourseworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF1625294B3E8F0024FFEF /* Mobile_App_CourseworkUITestsLaunchTests.swift */; };
+		86EF1633294B497E0024FFEF /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF1632294B497E0024FFEF /* Settings.swift */; };
+		86EF1635294B4A860024FFEF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF1634294B4A860024FFEF /* MainView.swift */; };
+		86EF1637294B4B600024FFEF /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF1636294B4B600024FFEF /* ExerciseView.swift */; };
+		BA7878AF2982D053007A4E94 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7878AE2982D052007A4E94 /* Persistence.swift */; };
+		BA7878B22982D097007A4E94 /* Mobile_App_Coursework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA7878B02982D097007A4E94 /* Mobile_App_Coursework.xcdatamodeld */; };
+		BA7878BE29830352007A4E94 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7878BD29830352007A4E94 /* Workouts.swift */; };
+		BA7F2ABE2985686300DE768D /* Mobile-App-Coursework-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA7F2ABD2985686300DE768D /* Mobile-App-Coursework-Info.plist */; };
+		BA88ABD2297986A70052226E /* AllWorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88ABD1297986A70052226E /* AllWorkoutScreen.swift */; };
+		BA88ABD429799A220052226E /* AddWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88ABD329799A220052226E /* AddWorkout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86EF1616294B3E8F0024FFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86EF15F8294B3E8D0024FFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86EF15FF294B3E8D0024FFEF;
+			remoteInfo = "Mobile App Coursework";
+		};
+		86EF1620294B3E8F0024FFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86EF15F8294B3E8D0024FFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86EF15FF294B3E8D0024FFEF;
+			remoteInfo = "Mobile App Coursework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		868ED6E6296EF7E8009D3605 /* WorkoutReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutReminder.swift; sourceTree = "<group>"; };
+		86EF1600294B3E8D0024FFEF /* Mobile App Coursework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile App Coursework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EF1603294B3E8D0024FFEF /* Mobile_App_CourseworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_App_CourseworkApp.swift; sourceTree = "<group>"; };
+		86EF1605294B3E8D0024FFEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86EF1607294B3E8F0024FFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86EF160A294B3E8F0024FFEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86EF1615294B3E8F0024FFEF /* Mobile App CourseworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile App CourseworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EF1619294B3E8F0024FFEF /* Mobile_App_CourseworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_App_CourseworkTests.swift; sourceTree = "<group>"; };
+		86EF161F294B3E8F0024FFEF /* Mobile App CourseworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile App CourseworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EF1623294B3E8F0024FFEF /* Mobile_App_CourseworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_App_CourseworkUITests.swift; sourceTree = "<group>"; };
+		86EF1625294B3E8F0024FFEF /* Mobile_App_CourseworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_App_CourseworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86EF1632294B497E0024FFEF /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		86EF1634294B4A860024FFEF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		86EF1636294B4B600024FFEF /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		BA7878AE2982D052007A4E94 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = ../../../.Trash/Persistence.swift; sourceTree = "<group>"; };
+		BA7878B12982D097007A4E94 /* Mobile_App_Coursework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mobile_App_Coursework.xcdatamodel; sourceTree = "<group>"; };
+		BA7878BD29830352007A4E94 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
+		BA7F2ABD2985686300DE768D /* Mobile-App-Coursework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Mobile-App-Coursework-Info.plist"; path = "../../../.Trash/Mobile-App-Coursework-Info.plist"; sourceTree = "<group>"; };
+		BA88ABD1297986A70052226E /* AllWorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWorkoutScreen.swift; sourceTree = "<group>"; };
+		BA88ABD329799A220052226E /* AddWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86EF15FD294B3E8D0024FFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EF1612294B3E8F0024FFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EF161C294B3E8F0024FFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86EF15F7294B3E8D0024FFEF = {
+			isa = PBXGroup;
+			children = (
+				86EF1602294B3E8D0024FFEF /* Mobile App Coursework */,
+				86EF1618294B3E8F0024FFEF /* Mobile App CourseworkTests */,
+				86EF1622294B3E8F0024FFEF /* Mobile App CourseworkUITests */,
+				86EF1601294B3E8D0024FFEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86EF1601294B3E8D0024FFEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86EF1600294B3E8D0024FFEF /* Mobile App Coursework.app */,
+				86EF1615294B3E8F0024FFEF /* Mobile App CourseworkTests.xctest */,
+				86EF161F294B3E8F0024FFEF /* Mobile App CourseworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86EF1602294B3E8D0024FFEF /* Mobile App Coursework */ = {
+			isa = PBXGroup;
+			children = (
+				BA7F2ABD2985686300DE768D /* Mobile-App-Coursework-Info.plist */,
+				BA7878AE2982D052007A4E94 /* Persistence.swift */,
+				86EF1603294B3E8D0024FFEF /* Mobile_App_CourseworkApp.swift */,
+				86EF1605294B3E8D0024FFEF /* ContentView.swift */,
+				BA88ABD329799A220052226E /* AddWorkout.swift */,
+				BA7878BD29830352007A4E94 /* Workouts.swift */,
+				BA88ABD1297986A70052226E /* AllWorkoutScreen.swift */,
+				868ED6E6296EF7E8009D3605 /* WorkoutReminder.swift */,
+				86EF1636294B4B600024FFEF /* ExerciseView.swift */,
+				86EF1634294B4A860024FFEF /* MainView.swift */,
+				86EF1632294B497E0024FFEF /* Settings.swift */,
+				BA7878B02982D097007A4E94 /* Mobile_App_Coursework.xcdatamodeld */,
+				86EF1607294B3E8F0024FFEF /* Assets.xcassets */,
+				86EF1609294B3E8F0024FFEF /* Preview Content */,
+			);
+			path = "Mobile App Coursework";
+			sourceTree = "<group>";
+		};
+		86EF1609294B3E8F0024FFEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86EF160A294B3E8F0024FFEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86EF1618294B3E8F0024FFEF /* Mobile App CourseworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				86EF1619294B3E8F0024FFEF /* Mobile_App_CourseworkTests.swift */,
+			);
+			path = "Mobile App CourseworkTests";
+			sourceTree = "<group>";
+		};
+		86EF1622294B3E8F0024FFEF /* Mobile App CourseworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86EF1623294B3E8F0024FFEF /* Mobile_App_CourseworkUITests.swift */,
+				86EF1625294B3E8F0024FFEF /* Mobile_App_CourseworkUITestsLaunchTests.swift */,
+			);
+			path = "Mobile App CourseworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86EF15FF294B3E8D0024FFEF /* Mobile App Coursework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86EF1629294B3E8F0024FFEF /* Build configuration list for PBXNativeTarget "Mobile App Coursework" */;
+			buildPhases = (
+				86EF15FC294B3E8D0024FFEF /* Sources */,
+				86EF15FD294B3E8D0024FFEF /* Frameworks */,
+				86EF15FE294B3E8D0024FFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile App Coursework";
+			productName = "Mobile App Coursework";
+			productReference = 86EF1600294B3E8D0024FFEF /* Mobile App Coursework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86EF1614294B3E8F0024FFEF /* Mobile App CourseworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86EF162C294B3E8F0024FFEF /* Build configuration list for PBXNativeTarget "Mobile App CourseworkTests" */;
+			buildPhases = (
+				86EF1611294B3E8F0024FFEF /* Sources */,
+				86EF1612294B3E8F0024FFEF /* Frameworks */,
+				86EF1613294B3E8F0024FFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86EF1617294B3E8F0024FFEF /* PBXTargetDependency */,
+			);
+			name = "Mobile App CourseworkTests";
+			productName = "Mobile App CourseworkTests";
+			productReference = 86EF1615294B3E8F0024FFEF /* Mobile App CourseworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86EF161E294B3E8F0024FFEF /* Mobile App CourseworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86EF162F294B3E8F0024FFEF /* Build configuration list for PBXNativeTarget "Mobile App CourseworkUITests" */;
+			buildPhases = (
+				86EF161B294B3E8F0024FFEF /* Sources */,
+				86EF161C294B3E8F0024FFEF /* Frameworks */,
+				86EF161D294B3E8F0024FFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86EF1621294B3E8F0024FFEF /* PBXTargetDependency */,
+			);
+			name = "Mobile App CourseworkUITests";
+			productName = "Mobile App CourseworkUITests";
+			productReference = 86EF161F294B3E8F0024FFEF /* Mobile App CourseworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86EF15F8294B3E8D0024FFEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					86EF15FF294B3E8D0024FFEF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					86EF1614294B3E8F0024FFEF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 86EF15FF294B3E8D0024FFEF;
+					};
+					86EF161E294B3E8F0024FFEF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 86EF15FF294B3E8D0024FFEF;
+					};
+				};
+			};
+			buildConfigurationList = 86EF15FB294B3E8D0024FFEF /* Build configuration list for PBXProject "Mobile App Coursework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86EF15F7294B3E8D0024FFEF;
+			productRefGroup = 86EF1601294B3E8D0024FFEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86EF15FF294B3E8D0024FFEF /* Mobile App Coursework */,
+				86EF1614294B3E8F0024FFEF /* Mobile App CourseworkTests */,
+				86EF161E294B3E8F0024FFEF /* Mobile App CourseworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86EF15FE294B3E8D0024FFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EF160B294B3E8F0024FFEF /* Preview Assets.xcassets in Resources */,
+				86EF1608294B3E8F0024FFEF /* Assets.xcassets in Resources */,
+				BA7F2ABE2985686300DE768D /* Mobile-App-Coursework-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EF1613294B3E8F0024FFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EF161D294B3E8F0024FFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86EF15FC294B3E8D0024FFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7878AF2982D053007A4E94 /* Persistence.swift in Sources */,
+				BA88ABD2297986A70052226E /* AllWorkoutScreen.swift in Sources */,
+				86EF1635294B4A860024FFEF /* MainView.swift in Sources */,
+				BA7878B22982D097007A4E94 /* Mobile_App_Coursework.xcdatamodeld in Sources */,
+				868ED6E7296EF7E8009D3605 /* WorkoutReminder.swift in Sources */,
+				BA88ABD429799A220052226E /* AddWorkout.swift in Sources */,
+				86EF1606294B3E8D0024FFEF /* ContentView.swift in Sources */,
+				86EF1604294B3E8D0024FFEF /* Mobile_App_CourseworkApp.swift in Sources */,
+				86EF1637294B4B600024FFEF /* ExerciseView.swift in Sources */,
+				86EF1633294B497E0024FFEF /* Settings.swift in Sources */,
+				BA7878BE29830352007A4E94 /* Workouts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EF1611294B3E8F0024FFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EF161A294B3E8F0024FFEF /* Mobile_App_CourseworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EF161B294B3E8F0024FFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EF1626294B3E8F0024FFEF /* Mobile_App_CourseworkUITestsLaunchTests.swift in Sources */,
+				86EF1624294B3E8F0024FFEF /* Mobile_App_CourseworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86EF1617294B3E8F0024FFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86EF15FF294B3E8D0024FFEF /* Mobile App Coursework */;
+			targetProxy = 86EF1616294B3E8F0024FFEF /* PBXContainerItemProxy */;
+		};
+		86EF1621294B3E8F0024FFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86EF15FF294B3E8D0024FFEF /* Mobile App Coursework */;
+			targetProxy = 86EF1620294B3E8F0024FFEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86EF1627294B3E8F0024FFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86EF1628294B3E8F0024FFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86EF162A294B3E8F0024FFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mobile App Coursework/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobile-App-Coursework-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aratuc.omar.Mobile-App-Coursework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86EF162B294B3E8F0024FFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mobile App Coursework/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobile-App-Coursework-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aratuc.omar.Mobile-App-Coursework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86EF162D294B3E8F0024FFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aratuc.omar.Mobile-App-CourseworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile App Coursework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobile App Coursework";
+			};
+			name = Debug;
+		};
+		86EF162E294B3E8F0024FFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aratuc.omar.Mobile-App-CourseworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile App Coursework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobile App Coursework";
+			};
+			name = Release;
+		};
+		86EF1630294B3E8F0024FFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aratuc.omar.Mobile-App-CourseworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobile App Coursework";
+			};
+			name = Debug;
+		};
+		86EF1631294B3E8F0024FFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aratuc.omar.Mobile-App-CourseworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobile App Coursework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86EF15FB294B3E8D0024FFEF /* Build configuration list for PBXProject "Mobile App Coursework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EF1627294B3E8F0024FFEF /* Debug */,
+				86EF1628294B3E8F0024FFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86EF1629294B3E8F0024FFEF /* Build configuration list for PBXNativeTarget "Mobile App Coursework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EF162A294B3E8F0024FFEF /* Debug */,
+				86EF162B294B3E8F0024FFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86EF162C294B3E8F0024FFEF /* Build configuration list for PBXNativeTarget "Mobile App CourseworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EF162D294B3E8F0024FFEF /* Debug */,
+				86EF162E294B3E8F0024FFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86EF162F294B3E8F0024FFEF /* Build configuration list for PBXNativeTarget "Mobile App CourseworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EF1630294B3E8F0024FFEF /* Debug */,
+				86EF1631294B3E8F0024FFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA7878B02982D097007A4E94 /* Mobile_App_Coursework.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA7878B12982D097007A4E94 /* Mobile_App_Coursework.xcdatamodel */,
+			);
+			currentVersion = BA7878B12982D097007A4E94 /* Mobile_App_Coursework.xcdatamodel */;
+			name = Mobile_App_Coursework.xcdatamodeld;
+			path = "../../../.Trash/Mobile App Coursework/Mobile_App_Coursework.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86EF15F8294B3E8D0024FFEF /* Project object */;
+}
